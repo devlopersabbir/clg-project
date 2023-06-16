@@ -3,15 +3,13 @@ import {
   Flex,
   Heading,
   Pressable,
-  ScrollView,
-  Toast,
-  VStack,
+  ScrollView, VStack
 } from "native-base";
 import React, { useEffect, useState } from "react";
 import { FontAwesome5 } from "@expo/vector-icons";
 import { noticeRequiest } from "../../utils/axios/axios";
 import { Ionicons } from "@expo/vector-icons";
-import { Link, useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { Notices } from "../../utils/interface/interface";
 import { Linking } from "react-native";
 import { useToast } from "react-native-toast-notifications";

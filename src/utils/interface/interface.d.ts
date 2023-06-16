@@ -12,7 +12,8 @@ export interface CModelView {
   heading?: string;
   isOpen?: boolean;
   onClose?: () => void;
-  data?: any; 
+  gread?: any; 
+  point?: any
 }
 
 export interface GDiplomaResults {
